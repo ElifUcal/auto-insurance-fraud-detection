@@ -1,0 +1,29 @@
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Sanal Ortamlar
+.venv/
+venv/
+env/
+ENV/
+
+# Veri Dosyaları (Büyük CSV'leri Git'e almıyoruz)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*.csv
+
+# Model Ağırlıkları
+models/*.joblib
+models/*.pkl
+models/*.onnx
+!models/.gitkeep
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# İşletim Sistemi ve Editör Dosyaları
+.DS_Store
+.vscode/
+.idea/
